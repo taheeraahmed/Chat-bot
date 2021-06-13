@@ -1,4 +1,4 @@
-# Chat-bot
+# 🤖 Chat-bot
 Trying to make different types of chat-bots 
 
 ## Alien bot 
