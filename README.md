@@ -1,7 +1,10 @@
 # 🤖 Chat-bot
-Trying to make different types of chat-bots 
+Trying to implement three types of chat-bots in order to learn something about natrual language 
+1. Rule-based based chat-bot 
+2. Retrieval based chat-bot
+3. Deep learning based chat-bot
 
-### 👽 Alien bot 
+### (1) Alien bot 👽 
 This is a rule-based chat bot. The bot is supposed to be an alien which has been abolished from it's own civilization and needs a new home. It want's to gain more information about "Earth".
 It can also cube numbers if you ask it to :) 
 
