@@ -1,4 +1,4 @@
-# 🤖 Chat-bot
+# 🤖 Chat-bots
 Trying to implement three types of chat-bots in order to learn something about natrual language processing and regular expressions and how they are used in NLP.
 
 1. Rule-based based chat-bot 
