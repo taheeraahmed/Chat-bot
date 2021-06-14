@@ -15,6 +15,7 @@ It's a quite simplistic approach to a chat bot and only uses if-elif-else statem
 
 ### (2) Cyborg cantina 🌮
 Libraries used: <code>re</code>, <code>collections</code>, <code>spacy</code>, <code>nltk</code>, <code>nltk.corpus</code> and <code>nltk.tokenize</code>
+
 This is a retrieval based chat-bot, these are best for closed-domain tasks. This specific chat-bot is a system which answer's diner questions given a restaurant serving mexican cuisine. 
 
 This approach uses td-idf scoring with cosine similarity, word embedded models and a set of user-defined functions. The intents and chat-bot responses has been written by the one and only Taheera. This is also a major drawback when taking this approach.
