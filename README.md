@@ -19,4 +19,4 @@ This approach uses td-idf scoring with cosine similarity, word embedded models a
 ### (3) Generative chat-bot
 The chat-bot is going to generate a text stream given the input of different streams of tweets. The streams consists of different topics. 
 
-This chat-bot takes advantage of deep learning, or more specifically, a neural network. 
+It takes advantage of deep learning, or more specifically, a neural network to generate new sentences. 
