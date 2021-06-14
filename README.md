@@ -7,6 +7,7 @@ Trying to implement three types of chat-bots in order to learn something about n
 
 ### (1) Alien bot 👽 
 Libraries used: <code>re</code> and <code>random</code>
+
 This is a rule-based chat bot. The bot is supposed to be an alien which has been abolished from it's own civilization and needs a new home. It want's to gain more information about "Earth".
 It can also cube numbers if you ask it to :) 
 
