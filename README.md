@@ -15,3 +15,8 @@ It's a quite simplistic approach to a chat bot and only uses if-elif-else statem
 This is a retrieval based chat-bot, these are best for closed-domain tasks. This specific chat-bot is a system which answer's diner questions given a restaurant serving mexican cuisine. 
 
 This approach uses td-idf scoring with cosine similarity, word embedded models and a set of use-defined functions.
+
+### (3) Generative chat-bot
+The chat-bot is going to generate a text stream given the input of different streams of tweets. The streams consists of different topics. 
+
+This chat-bot takes advantage of deep learning, or more specifically, a neural network. 
