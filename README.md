@@ -11,4 +11,7 @@ It can also cube numbers if you ask it to :)
 
 It's a quite simplistic approach to a chat bot and only uses if-elif-else statements to match different regular expressions to different intents. 
 
+### (2) Cyborg cantina 
+This is a retrieval based chat-bot, these are best for closed-domain tasks. This specific chat-bot is a system which answer's diner questions given a restaurant serving mexican cuisine. 
+
 
