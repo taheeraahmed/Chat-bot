@@ -26,4 +26,7 @@ Libraries used: <code>tensorflow</code>, <code>keras</code>, <code>numpy</code> 
 The chat-bot is going to generate a text stream given the input from a corpus consisting of different movie dialogues. 
 It uses a seq2seq decoding function (which can be found in <code>seq2seq.py</code>), where the decoder will generate several output tokens, and the one with the highest probability will be selected. 
 
+The neural net is trained by using RMS-prop (which is a fancy type of backpropgation) and categorical cross entropy to measure the error rate. The model is trained in <code>training_model.py</code>
+
+
 This technique uses deep learning, and the outcome is highly dependent on the training data (as with every other neural nets). 
