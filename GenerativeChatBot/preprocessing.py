@@ -3,7 +3,7 @@ import re
 
 # Importing our translations
 # for example: "spa.txt" or "spa-eng/spa.txt"
-data_path = "nob.txt"
+data_path = "movie-dialogues/movie_lines"
 
 # Defining lines as a list of each line
 with open(data_path, 'r', encoding='utf-8') as f:
