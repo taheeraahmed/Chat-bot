@@ -21,6 +21,9 @@ This is a retrieval based chat-bot, these are best for closed-domain tasks. This
 This approach uses td-idf scoring with cosine similarity, word embedded models and a set of user-defined functions. The intents and chat-bot responses has been written by the one and only Taheera. This is also a major drawback when taking this approach.
 
 ### (3) Generative chat-bot
-The chat-bot is going to generate a text stream given the input of different streams of tweets. The streams consists of different topics. 
+Libraries used: <code>tensorflow</code>, <code>keras</code>, <code>numpy</code> and <code>re</code>
 
-It takes advantage of deep learning, or more specifically, a neural network to generate new sentences. 
+The chat-bot is going to generate a text stream given the input from a corpus consisting of different movie dialogues. 
+It uses a seq2seq decoding function (which can be found in <code>seq2seq.py</code>), where the decoder will generate several output tokens, and the one with the highest probability will be selected. 
+
+This technique uses deep learning, and the outcome is highly dependent on the training data (as with every other neural nets). 
