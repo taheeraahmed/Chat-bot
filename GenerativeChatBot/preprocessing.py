@@ -2,7 +2,7 @@ import numpy as np
 import re
 import pickle
 
-from twitter_prep import pairs
+from GenerativeChatBot.twitter_prep import pairs
 
 # Building empty lists to hold sentences
 input_docs = []
@@ -69,8 +69,10 @@ for line, (input_doc, target_doc) in enumerate(zip(input_docs, target_docs)):
   for timestep, token in enumerate(re.findall(r"[\w']+|[^\s\w]", input_doc)):
     # Assign 1. for the current line, timestep, & word
     # in encoder_input_data:
-    encoder_input_data[line, timestep, input_features_dict[token]] = 1.
+    
     # add in conditional for handling unknown tokens (when token is not in input features dict)
+    if token in input_features_dict:
+      encoder_input_data[line, timestep, input_features_dict[token]] = 1.
 
   for timestep, token in enumerate(target_doc.split()):
 
