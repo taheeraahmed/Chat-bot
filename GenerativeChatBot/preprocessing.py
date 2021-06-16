@@ -2,7 +2,7 @@ import numpy as np
 import re
 import pickle
 
-from GenerativeChatBot.twitter_prep import pairs
+from twitter_prep import pairs
 
 # Building empty lists to hold sentences
 input_docs = []

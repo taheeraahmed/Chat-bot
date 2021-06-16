@@ -1,6 +1,6 @@
 import numpy as np
 import re
-from GenerativeChatBot.test_model import encoder_model, decoder_model, num_decoder_tokens, num_encoder_tokens, input_features_dict, target_features_dict, reverse_target_features_dict, max_decoder_seq_length, max_encoder_seq_length
+from test_model import encoder_model, decoder_model, num_decoder_tokens, num_encoder_tokens, input_features_dict, target_features_dict, reverse_target_features_dict, max_decoder_seq_length, max_encoder_seq_length
 
 class ChatBot():
     # negative_commands: a list of words and phrases that indicate the user’s response is negative when asked if they want to chat.
