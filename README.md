@@ -1,5 +1,5 @@
 # 🤖 Chat-bots
-Trying to implement three types of chat-bots in order to learn something about natrual language processing.
+Trying to implement three types of chat-bots in order to learn something about chat-bots, natural language processing and the Python library Tensorflow.
 
 1. Rule-based based chat-bot 
 2. Retrieval based chat-bot
